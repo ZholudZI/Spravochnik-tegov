@@ -1,0 +1,40 @@
+body {
+    background-color: #cfeef5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Lobster Two', cursive;
+}
+
+h2 {
+    font-family: 'Arial';
+}
+
+#header_site {
+    display: flex;
+}
+
+#inform_header {
+    flex-direction: column;
+}
+
+nav {
+    width: 900px;
+}
+
+#main_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+p, li {
+    font-size: 20px;
+}
+
+a:hover {
+    color: grey;
+}
